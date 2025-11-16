@@ -669,6 +669,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="621" height="147" alt="image" src="https://github.com/user-attachments/assets/31cb6022-efd1-4a33-99b8-c5369a86e46a" />
 
 
 # using numeric test comparisons
@@ -712,6 +713,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="772" height="281" alt="image" src="https://github.com/user-attachments/assets/11e1bb15-119f-4503-b200-9a17544cfee0" />
 
 # check if a file
 cat > ifnested.sh 
@@ -761,6 +763,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="743" height="463" alt="image" src="https://github.com/user-attachments/assets/0838924b-3cab-4279-9d5d-af07def5a339" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -789,6 +792,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="739" height="178" alt="image" src="https://github.com/user-attachments/assets/b62204ff-7e53-4a08-bfbe-836935e285de" />
 
 
 # testing compound comparisons
@@ -805,6 +809,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="712" height="134" alt="image" src="https://github.com/user-attachments/assets/36b0f910-3970-4707-ab27-b11f49a75eca" />
 
 # using the case command
 cat >casecheck.sh 
@@ -824,6 +829,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## output
+
+<img width="777" height="502" alt="image" src="https://github.com/user-attachments/assets/60df04cd-0c90-40c6-b248-7bb4062cca72" />
+
  
 cat > whiletest
 ```bash
@@ -839,7 +848,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ##output
+ <img width="556" height="505" alt="image" src="https://github.com/user-attachments/assets/87f2868b-f354-420c-8625-13a365d36f47" />
+
  
 cat untiltest.sh 
 ```bash
@@ -853,7 +864,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ## output
+ <img width="792" height="488" alt="image" src="https://github.com/user-attachments/assets/526f0019-1a5f-49d2-8bfd-be2ce558391c" />
+
  
 cat forin1.sh 
 ```bash
@@ -866,8 +879,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+
+ <img width="765" height="336" alt="image" src="https://github.com/user-attachments/assets/03a1250c-0850-4758-8c24-298b8dabf579" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -892,7 +906,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ## output 
+ <img width="764" height="202" alt="image" src="https://github.com/user-attachments/assets/63415c3c-c16c-4dea-a791-d0aa00207d84" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -903,7 +919,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## output
+<img width="781" height="423" alt="image" src="https://github.com/user-attachments/assets/43212764-cb30-4e34-b9c8-9f05576318ce" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -916,6 +934,10 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+
+<img width="812" height="500" alt="image" src="https://github.com/user-attachments/assets/54852cfe-70f7-47fe-93cc-c2b98b5bd51e" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -937,6 +959,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="804" height="547" alt="image" src="https://github.com/user-attachments/assets/3d626935-4c90-45ae-b246-b811f97aa96f" />
 
 
 cat forctype.sh 
@@ -951,6 +974,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
+<img width="750" height="295" alt="image" src="https://github.com/user-attachments/assets/2fcabb7b-6407-4263-b737-ed2de261e636" />
 
 cat forctype1.sh 
 ```bash
