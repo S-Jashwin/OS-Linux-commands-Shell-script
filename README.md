@@ -388,6 +388,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="744" height="196" alt="image" src="https://github.com/user-attachments/assets/d988da72-b332-4f2c-9992-ddccde101ed9" />
 
 
 cat > file22
@@ -401,6 +402,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="799" height="187" alt="image" src="https://github.com/user-attachments/assets/2e7a01fc-66e0-4438-aeab-060682d0de9d" />
 
 
 
@@ -408,6 +410,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="838" height="258" alt="image" src="https://github.com/user-attachments/assets/aeec3478-d424-433c-a3b6-76047a858e79" />
 
 cat < urllist.txt
 ```
@@ -424,17 +427,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="753" height="175" alt="image" src="https://github.com/user-attachments/assets/4c7ba120-d792-4fc7-abf1-19afdfbe7804" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="711" height="168" alt="image" src="https://github.com/user-attachments/assets/3b74050d-3ade-4599-a5b5-214d67ec51dc" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="933" height="303" alt="image" src="https://github.com/user-attachments/assets/19f7ab60-e59c-495f-b922-3f458e720c28" />
 
 
 mkdir backupdir
@@ -445,18 +451,22 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="961" height="315" alt="image" src="https://github.com/user-attachments/assets/fb1d9b9d-b7a0-4d4f-be05-cfe721bd87b1" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="902" height="313" alt="image" src="https://github.com/user-attachments/assets/f24a3d21-9bce-468d-bb2b-4603f7bb1282" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="902" height="313" alt="image" src="https://github.com/user-attachments/assets/81e5ddfe-7731-463c-a0c7-e36c3f5fc633" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="902" height="313" alt="image" src="https://github.com/user-attachments/assets/7797f9e0-64c0-418d-9bb8-56707709d6af" />
 
  
 # Shell Script
@@ -468,7 +478,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+ <img width="838" height="106" alt="image" src="https://github.com/user-attachments/assets/cbebb3b9-b332-4183-9940-e4215f2463a7" />
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -479,6 +490,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="769" height="160" alt="image" src="https://github.com/user-attachments/assets/d287eae1-eb61-4680-b380-4ee00288e579" />
 
 
 cat < scriptest.sh 
@@ -517,13 +529,19 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="789" height="380" alt="image" src="https://github.com/user-attachments/assets/b69c934b-27f1-4cdc-bba7-d837462af2a7" />
 
  
 ls file1
 ## OUTPUT
 
+<img width="755" height="97" alt="image" src="https://github.com/user-attachments/assets/b1d14ff3-9aee-4b41-a8a7-b3d9ccc7a16c" />
+
+
 echo $?
 ## OUTPUT 
+<img width="786" height="96" alt="image" src="https://github.com/user-attachments/assets/56fd5c57-4504-4e67-ba22-30bfd9589f4d" />
+
 ./one
 bash: ./one: Permission denied
  
@@ -535,6 +553,7 @@ abcd
 echo $?
  ## OUTPUT
 
+<img width="786" height="96" alt="image" src="https://github.com/user-attachments/assets/c1bb20e4-76fa-4051-b69a-1a0b56d2effd" />
 
  
 # mis-using string comparisons
@@ -566,6 +585,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="787" height="288" alt="image" src="https://github.com/user-attachments/assets/c8f3bb37-2dec-42b2-b826-2a380f11f15f" />
 
 
 
@@ -574,6 +594,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+<img width="808" height="151" alt="image" src="https://github.com/user-attachments/assets/3f3aecf1-0a31-4c80-be55-4a34aa39e05d" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -600,6 +621,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="799" height="264" alt="image" src="https://github.com/user-attachments/assets/b1c29cda-894d-434c-8fa4-7ef220663a15" />
 
 # check if with file location
 cat>ifnested.sh 
